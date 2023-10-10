@@ -1,0 +1,251 @@
+@import url("https://unpkg.com/bootstrap@5.0.1/dist/css/bootstrap.min.css");
+@import url("https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css");
+
+
+.boxContainer{
+    height: 105vh;
+    background-color: rgb(250, 111, 208); 
+    margin-left: 50px;
+    background-image: linear-gradient(180deg, #FDA7E9, #FBA1A6,  #A7DDF7, #ecf07d);
+    width: 1110px;
+    box-shadow: 15px -4px 11px 7px rgb(29, 28, 28);
+ }
+ .sampleBox{
+     margin-left: 14px;
+     height: 100px;
+     width: 190px;
+     box-shadow: 0 0 3px 1px;
+     position: relative;
+     border-radius: 18px;
+ }
+ .sampleBox:first-child{
+     margin-left: 80px;
+ }
+ .sampleBox h5{
+     position: absolute;
+     left: 7px;
+ }
+ .sampleBox h6{
+     position: absolute;
+     top: 46px;
+     left: 10px;
+ }
+ .sampleBox a{
+     left: 7px;
+     position: absolute;
+     border-radius: 40px; 
+     border: none;
+     height: 18px;
+     width: 80px;
+     font-size: 10px;
+     bottom: 12px;
+     background-color: aliceblue;
+ }
+ .boxContent{
+     position: relative;
+     margin-top: 20px;
+     height: 350px;
+     width: 1000px;
+     box-shadow: 0 0 4px 1px;
+     border-radius: 40px ;
+     margin-left: 85px;
+ }
+ .para1{
+     position: absolute;
+     top: 25px;
+     left: 25px;
+ }
+ .para1 button{
+     background-color: black !important;
+ }
+ .para2{
+     position: absolute;
+     top: 92px;
+     left: 190px;
+ }
+ .para3{
+     position: absolute;
+     top: 158px;
+     left: 355px;
+ }
+ .para4{
+     position: absolute;
+     top: 225px;
+     left: 520px;
+ }
+ .para5{
+     position: absolute;
+     top: 293px;
+     left: 767px;
+ } 
+ .para5 button{
+     background-color: black !important;
+ }
+ .para5 h6{
+     margin-left: 20px;
+ }
+ .boxContent button{
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   background-color:white;
+   border: none;
+   margin-left: 20px;
+ }
+ .boxContent span{
+    width: 40px; 
+    height: 3px;
+    background-color: black;
+    margin-top: 15px;
+ }
+ .boxContent p{
+     position: absolute;
+     background-color: white;
+     border-radius: 30px;
+     width: 200px;
+     font-weight: 600;
+     height: 44px;
+     left: 150px;
+ }
+ .paraLine{
+     position: absolute;
+     height:25px;
+     background-color: black;
+     width: 3px;
+     top: 43px;
+     left: 280px;
+ }
+  .downLine1{
+     position: absolute;
+     top: 30px;
+     height: 250px;
+     width: 3px;
+     background-color: black;
+     margin-left: 30px;
+ }
+ .sideLine{
+    position: absolute;
+    height: 3px;
+    width: 700px;
+    background-color: black;
+    top: 280px;
+    left: 90px;
+ }
+ .sampleBoxes{
+     margin-top: 1px;
+ }
+ .sampleBox img{
+     position: absolute;
+     width: 80px;
+     right: 10px;
+     top: 20px;
+ }
+ .icon img{
+     width: 60px;
+     color: white;
+     margin-top: 10px;
+ }
+  .circle{
+    height: 24px;
+    width: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding-left: 10px ;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-right: 14px;
+ }
+ .search1 input{
+     border: none;
+     background-color: none;
+     font-size: 14px;
+     color: #EFEFEF;
+ }
+ .search1{
+     position: absolute;
+     display: flex;
+     width: 260px;
+     height: 20px;
+     background-color: white;
+     right: 210px;
+     top: 10px;
+     height: 45px;
+     border-radius: 30px;
+ }
+ .boxContent h1{
+     position: absolute; 
+     right: 100px;
+     top: 10px;
+     color: white;
+     font-weight: 700;
+  }
+ .samImg img{
+     position: absolute;
+     right: 110px;
+     top: 70px;
+ }
+ .sideHeading1{
+   position: relative;
+   margin-left: 0;
+   height: 105vh;
+   width: 58px;
+   background-image: linear-gradient(180deg, #F59FAD, #FBA1A6,  #A7DDF7, #ecf07d );
+   box-shadow:  inset -4px 2px 8px 0px rgb(147 135 135)
+ }
+ .sideHeading2{
+     position: relative;
+     margin-left: 0;
+     height: 105vh;
+     width: 40px;
+     background-image: linear-gradient(180deg, #F59FAD, #FBA1A6,  #A7DDF7, #ecf07d );
+     box-shadow:  inset -4px 2px 8px 0px rgb(147 135 135)
+   }
+   .sideHeading3{
+     position: relative;
+     margin-left: 0;
+     height: 105vh;
+     width: 40px;
+     background-image: linear-gradient(180deg, #F59FAD, #FBA1A6,  #A7DDF7, #ecf07d );
+     box-shadow:  inset -4px 2px 8px 0px rgb(147 135 135)
+   }
+ .sideHeading1 h3{
+     transform: rotate(270deg);
+     position: absolute;
+     top: 50%;
+     left: -95px;
+     color: white;
+     background-color: #DFAEBE;
+     width: 250px;
+     padding: 7px;
+     border-top-right-radius: 50px; 
+     border-top-left-radius:50px ;
+     z-index: 3;
+ }  
+ .sideHeading2 h3{
+     transform: rotate(270deg);
+     position: absolute;
+     top: 50%;
+     left: -90px;
+     color: white;
+     background-color: #988CF7;
+     width: 220px;
+     padding: 4px;
+     border-top-right-radius: 50px; 
+     border-top-left-radius:50px ;
+     z-index: 2;
+ }
+ .sideHeading3 h3{
+     transform: rotate(270deg);
+     position: absolute;
+     top: 50%;
+     left: -75px;
+     color: white;
+     background-color: #74BEDC;
+     width: 190px;
+     padding: 4px;
+      border-top-right-radius: 50px; 
+     border-top-left-radius:50px ; 
+     z-index: 1;
+ }  
+  
